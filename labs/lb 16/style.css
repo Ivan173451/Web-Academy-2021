@@ -1,0 +1,203 @@
+/*These lines of CSS makes the font of all text on the webpage the font of "serif" and makes the div the shape of a box.*/
+*{
+  box-sizing: border-box;
+  font-family:serif;
+  /*padding:0;
+  margin:0;*/
+}
+/*These lines of code affect the appearance, shape, and position of the body.*/
+body{
+  background-color: lightgoldenrodyellow;
+  color:green;
+  display:block;
+  position:relative;
+  /*height:100vh;*/
+}
+.topnav{
+  background-color: rgb(122, 238, 122);
+  overflow: hidden;
+}
+.topnav a{
+  color: black;
+  float: left;
+  display: block;
+text-align: center;
+padding: 10px 10px;
+}
+.topnav a:hover{
+  background-color: white;
+  color: red;
+}
+.column{
+  background-image: url("source.png");
+  float: left;
+  padding:15px;
+  width:33.33%;
+  color:White;
+}
+/*.wrapper{
+display:block;
+background-color:;
+width:600px;
+height:600px;
+position:absolute;
+top:50%;
+left:50%;
+padding:4px;
+outline:#202b39 solid 7px;
+outline-offser:-15px;
+overflow:hidden;
+}*/
+
+/*.section_userform{
+width:70%;
+display:block;
+margin:0 auto;
+color:red;
+}*/
+
+/*.input_input{
+width:35%;
+text-align:right;
+font-size:1.5em; <-font size that changes with container size
+color:red;
+}*/
+/*.break{
+display:block;
+width:100%;
+margin:2em; <- em changes size based on container size
+}*/
+
+/*.textbox{
+width:50%;
+height:1.5em;
+box-sizing:content-box;
+background-color:;
+border-color:;
+padding-left:1em;
+color:;
+}*/
+
+/*.button{
+display:block;
+marign:none;
+padding:0.5em 2.5em;
+text-transform:uppercase;
+background-color:;
+border-color:;
+border-width:3px;
+border-radius:3px;
+border-style:solid;
+padding-left:1em;
+color:;
+font-size:1.3em;
+}*/
+
+/*.buttonwrapper{
+display:grid;
+jusifty-content:center;
+}*/
+
+/*.section_info{
+text-align:center;
+margin:1em;
+color:;
+}*/
+
+/*section_info:h1{
+font-size:5em;
+}*/
+
+/*#line{
+border-color:;
+width:80%;
+margin-bottom:4em;
+}*/
+
+/*.result{
+width:45%;
+text-align:left;
+display:inline-block;
+font-size:1.5em;
+color:;
+}*/
+
+/*.result_label{
+width:40%;
+text-align:right;
+display:inline-block;
+font-size:1.5em;
+color:;
+}*/
+
+/*#before{
+opacity:1;
+}*/
+
+/*#after{
+display:none;
+opacity:0
+}*/
+
+/*.button:focus #after{
+display:visible;
+opacity:1;
+}*/
+/*This line of CSS makes all the text in the HTML tag that has the Id "headerinfo" aligned to the center of the webpage.*/
+#headerinfo{
+  text-align:center;
+}
+/*These lines of CSS affect the size and appearance of the text in the paragraph with the Id "before". The affects of this CSS is font size and font appearance.*/
+#before p{
+  font-size:18px;
+  font-weight:bold;
+}
+/*These lines of text affect everything in the div with the id "before" amd the div itself. The position. width, background color, border style, and border color of the div are modified. The text alignment and color of the text are affected as well.*/
+#before{
+  position:absolute;
+  text-align:center;
+  border:16px double green;
+  width:26%;
+  background-color:azure;
+  color:rgb(218, 143, 81);
+  top:160px;
+  left:590px;
+  padding:40px;
+  display:block;
+}
+/*These lines of CSS makes the h1 HTML tag within the div with the id "before". This line of css affects the text size of the text inside the h1 HTML tag.*/
+#before h1{
+  font-size:40px;
+}
+/*These lines of CSS affect everything in the div with the id "after". The position, text location, border style, color, and width of the div is affected by these lines of CSS.*/
+#after{
+  position:absolute;
+  top:160px;
+  left:614px;
+  text-align:center;
+  border:10px double rgb(218, 143, 81);
+  width:23%;
+}
+/*This line of CSS affect the HTML with the class of breakbuttonwrapper. It increases the amount of place between the content of the class with the margin of it.*/
+.breakbuttonWrapper{
+  padding:40px;
+}
+/*This line of CSS affects the spacing of the inside of the button of the form.*/
+#input_username_button{
+  padding:5px;
+}
+/*This line of CSS affects the capitalization of the text in all buttons.*/
+.button{
+  text-transform:uppercase;
+}
+/*this line of CSS makes all buttons chage color, text color, border color, and size and the mouse is hovered over any button.*/
+.button:hover{
+  background-color:azure;
+  color:green;
+  border-color:green;
+  transform:scale(1.05);
+}
+/*This line of CSS affects the width of the line under the heading of the form.*/
+#line{
+  width:80%;
+}

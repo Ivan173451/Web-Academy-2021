@@ -1,0 +1,23 @@
+<!--Doctype HTML-->
+<html>
+       <head>
+                <title> Smart Goals</title>
+       </head>
+       <body>
+                <h1> Thomas A. Edison CTE Highschool</h1>
+		<h2> Web Developer Academy</h2>
+		<h3> 10th Grade</h3>
+		<h4> Lab 2</h4>
+		<h5> Intro to Hyper Text Markup Language</h5>
+		<h6> By Ivan Chow</h6>
+		<img src="me.jpg" width="100px"> 
+		<ul>
+			<li> I want to leave highschool with somewhat high grades.</li>
+			<li> I wish to be able to provide for myself once I can get a stable job.</li>
+			<li> I want to live a quiet but happy life.</li>
+		</ul>
+		<p> My name is Ivan Chow and I like video games. I also am interested in mixology but I can't enter the field or practice yet due to my age. I am here because of my class schedule. I also need the highschool credit so I can prove I have gone to highschool so it is easier to get a job. I want to endure the school year and highschool so I can leave and get a job. I want to live a somewhat quiet and peaceful life. I may decided to change and look for things more exciting but for now, I am simply enjoying my last years before adulthood.</p>
+		<p> The first tab is used to tell the highschool. The second tab is being used to show the class. The third tab is showing the grade. The fourth tag is used to show the class acitivty. The fifth tag is being used to show the subject. The sixth tab is showing the person who wrote the file.</p>
+       </body>
+
+</html>

@@ -1,0 +1,84 @@
+/*The code box sizing may be the code that defines the shape of the dropdown bar that is going to be made to display the labs done.*/
+*{
+  box-sizing: border-box;
+}
+/*The background color is the code that colors the background of the document while the color code affects the color of the contents of the HTML tags.*/
+body{
+  background-color: lightgoldenrodyellow;
+  color: green;
+}
+/*Style of the header*/
+.header{
+  background-color:azure ;
+  padding: 20px;
+  text-align: center;
+  color: rgb(238, 183, 81);
+}
+.backgroundwhitestyling{
+  background-color:azure ;
+  padding: 20px;
+  text-align: center;
+}
+.topnav{
+  background-color: rgb(122, 238, 122);
+  overflow: hidden;
+}
+.topnav a{
+  color: black;
+  float: left;
+  display: block;
+text-align: center;
+padding: 10px 10px;
+}
+.topnav a:hover{
+  background-color: white;
+  color: red;
+}
+.column{
+  background-image: url("source.png");
+  float: left;
+  padding:15px;
+  width:33.33%;
+  color:White;
+}
+.lab9text{
+  background-color:black;
+  border:4px dotted yellow;
+}
+.styled{
+  background-color:azure;
+  padding: 20px;
+  text-align: center;
+  font-weight:bold;
+  color: green;
+}
+.responsive{
+padding:0 6px;
+  float:left;
+Width:16.6666666667%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive{
+    width:49.99%;
+    margin:6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive{
+    width:100%;
+  }
+}
+div.gallery{
+  border:1px solid green;
+}
+div.gallery:hover{
+  border:3px dotted red;
+}
+div.img{
+  width:100%;
+  height:auto;
+}
+div.desc{
+  padding:15px;
+  text-align:center;
+}

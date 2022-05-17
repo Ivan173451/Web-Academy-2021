@@ -1,0 +1,142 @@
+/*The code box sizing may be the code that defines the shape of the dropdown bar that is going to be made to display the labs done.*/
+*{
+  box-sizing: border-box;
+}
+/*The background color is the code that colors the background of the document while the color code affects the color of the contents of the HTML tags.*/
+body{
+  background-color: lightgoldenrodyellow;
+  color: green;
+}
+/*Style of the header*/
+.header{
+  background-color:azure ;
+  padding: 20px;
+  text-align: center;
+  color: rgb(238, 183, 81);
+}
+.backgroundwhitestyling{
+  background-color:azure ;
+  padding: 20px;
+  text-align: center;
+}
+.topnav{
+  background-color: rgb(122, 238, 122);
+  overflow: hidden;
+}
+.topnav a{
+  color: black;
+  float: left;
+  display: block;
+text-align: center;
+padding: 10px 10px;
+}
+.topnav a:hover{
+  background-color: white;
+  color: red;
+}
+.column{
+  background-image: url("source.png");
+  float: left;
+  padding:15px;
+  width:33.33%;
+  color:White;
+}
+.styled{
+  background-color:azure ;
+  padding: 20px;
+  text-align: center;
+  font-weight:bold;
+  color: green;
+}
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+.drpdcontent{
+  display:none;
+  position:absolute;
+  background-color:azure;
+  min-width:80px;
+  box-shadow:0px 8px 16px 0px;
+  padding:12px 16px;
+  z-index:1;
+}
+.dropdown:hover .drpdcontent{
+  display:block;
+}
+.dropdown2{
+  position:relative;
+  display:inline-block;
+}
+.drpdcontent2{
+  display:none;
+  position:absolute;
+  background-color:azure;
+  min-width:100px;
+  box-shadow:0px 8px 16px 0px;
+  padding:16px 20px;
+  margin-top:-1px;
+  z-index:1;
+}
+.dropdown2:hover .drpdcontent2{
+  display:block;
+}
+.drpmenu{
+  background-color:azure;
+  color:rgb(238, 183, 81);
+  padding:16px;
+  margin:10px;
+  font-size:16px;
+  border:none;
+  cursor:pointer;
+}
+.dropdown2:hover .drpmenu{
+background-color:rgb(122, 238, 122);
+color:black;
+}
+.dropdown2 a{
+  color:blue;
+  background-color:lightgoldenrodyellow;
+  border:1px solid black;
+  padding:12px 16px;
+  text-decoration:none;
+  Display:none;
+}
+.dropdown2:hover a{
+  display:block;
+  background-color:azure;
+  color:rgb(238, 183, 81);
+  border:2px dotted rgb(122, 238, 122);
+}
+.dropdown2:hover a:hover{
+  color: black;
+  background-color:rgb(122, 238, 122);
+  border:3px solid PaleTurquoise;
+  padding:12px 16px;
+  Text-decoration:none;
+}
+.dropdown3{
+  position:absolute;
+  display:inline-block;
+}
+.dropdown3 img.firstimg{
+  width:100px;
+}
+.dropdown3:hover .secondimg{
+  display:block;
+  width:400px;
+}
+.drpdcontent3 img.secondimg{
+  display:none;
+  border:6px solid BurlyWood;
+}
+.caption{
+  display:none;
+  text-align:center;
+}
+.drpdcontent3:hover .caption{
+  display:block;
+  color:Green;
+  font-size:20px;
+  background-color:PaleTurquoise;
+}

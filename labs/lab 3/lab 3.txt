@@ -1,0 +1,21 @@
+<!--Doctype HTML-->
+<html>
+<btest>       
+<head>
+<meta charset="utf-8">
+<meta name= 
+<base html document>
+</head>
+<body>
+<h1> Web Development </h1>
+<h2> 9/21/21</h2>
+<h3> lab 3</h3>
+<h6> HYPERLINKS</h6>
+<h4> By</h4>
+<h5> Ivan Chow</h5>
+
+<p>explain</p>
+<a href="https://www/taehs.org">Click here to visit my highshool </a>
+
+</body>
+</html>

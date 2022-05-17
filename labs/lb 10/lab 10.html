@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="shortcut icon" href="../lab 6/logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internal CSS</title>
+<style>
+/*the * works as a universal selector for CSS*/
+*{
+  box-sizing:border-box;
+}
+/*A CSS selector selects the html element(s) you want to style, simple selectors (select elements based on name, id, class)
+*/
+/*Any html tag can be a selector, for example*/
+body{
+background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61822230-wikimedia-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=a67cf9ca03bf55214c1a234e9aa13d7d");
+background-size:100%;
+}
+/*The class selector selects html elements with a specific class attribute.
+To select elements with a specific class, write a period (.) character, followed by the class name.*/
+.header{
+  background-color:lightgoldenrodyellow;
+  text-align:center;
+  padding:20px;
+  margin:5px;
+  color:green;
+  border: 6px dotted lightgreen;
+}
+.header h1{
+color:red;
+}
+  /*the id selector uses the id attribute of an html element to select a specific element
+  
+  The id of an element is unique with in a page, so the id selector is used to select one unique element!
+  
+  To select an element with a specific id, write a hash (#) chracter, followed by the id of the element.*/
+.topnav{
+  background-color:silver;
+  overflow:hidden;
+}
+.topnav a{
+  color: black;
+  float: left;
+  display: block;
+text-align: center;
+padding: 10px 10px;
+}
+.topnav a:hover{
+  background-color: white;
+  color: red;
+}
+/*This will affect all h1 html elements on the page. Tag selector*/
+h1{
+  color:white;
+}
+/*This one will affect only the html element with the id="lname".      ID selector*/
+#lname{
+  color:red;
+}
+/*This is 
+combination selector*/
+#demoBox h1{
+  color:blue;
+}
+
+#demoBox{
+  text-align:center;
+  background-color:azure;
+  width:12%;
+}
+/*The grouping selector selects all the html elements with the same style defintion.
+
+It's better to group the selectors, to minimize the code to group selectors, separate each selector with a coma.*/
+h1, h2, p{
+font-family:sans-serif;
+}
+/*CSS combinators
+A combinator is something that explains the relationship between the selectors.
+a CSS selector can contain more than one simple selector.
+Between the simple selectors, we can include a combinator.
+There are four different combinators in CSS:
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (-)*/
+.header>h2{
+  color:Black;
+}
+/*A pseudo-class is used to define a special state of an element. For example, it can be used to: style an element when a user mouses over it style visited and unvisited links differenty style an element when it gets focus.*/
+a:link{
+  color:yellow;
+}
+a:visited{
+  color:blue;
+}
+/*The attribute selector is used to select elements with a specificed attribute, the following example selects all <p> elements with a target attribute:
+*/
+p[id]{
+  background-color:lightgoldenrodyellow;
+  color:green;
+  font-weight:bold;
+}
+</style>
+  <link href="../../main.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+   <a href="https://web-academy-2021.ivanchow3.repl.co/">Click here to return to the home page</a>
+    <div class="topnav">
+  <a href="../lab 1/lab.html">Lab #1</a>
+  <a href="../lab 2/lab 2.html">Lab #2</a>
+  <a href="../lab 3/lab 3.html">Lab #3</a>
+  <a href="../lab 4/lab 4.html">Lab #4</a>
+  <a href="../lab 5/lab 5.html">Lab #5</a>
+  <a href="../lab 6/lab 6.html">Lab #6</a>
+  <a href="../lab 7/lab 7.html">Lab #7</a>
+  <a href="../lab 8/lab 8.html">Lab #8</a>
+  <a href="../lab 9/lab 9.html">Lab #9</a>
+  <a href="../lb 10/lab 10.html">Lab #10</a>
+  <a href="../lb 11/lab 11.html">Lab #11</a>
+  <a href="../lb 12/lab 12.html">Lab #12</a>
+  <a href="../lb 13/lab 13.html">Lab #13</a>
+  <a href="../lb 14/lab 14.html">Lab #14</a>
+  <a href="../lb 15/lab 15.html">Lab #15</a>
+  <a href="../lb 16/lab 16.html">Lab #16</a>
+  <a href="../lb 17/lab 17.html">Lab #17</a>
+  <a href="../lb 18/lab 18.html">Lab #18</a>
+  <a href="../lb 19/lab 19.html">Lab #19</a>
+  <a href="../lb 20/lab 20.html">Lab #20</a>
+  <a href="../lb 21/lab 21.html">Lab #21</a>
+  <a href="../lb 22/lab 22.html">Lab #22</a>
+  <a href="../lb 23/lab 23.html">Lab #23</a>
+  <a href="../lb 24/lab 24.html">Lab #24</a>
+  <a href="../lb 25/lab 25.html">Lab #25</a>
+  <a href="../lb 26/lab 26.html">Lab #26</a>
+  <a href="../lb 27/lab 27.html">Lab #27</a>
+  <a href="../lb 28/lab 28.html">Lab #28</a>
+  <a href="../lb 29/lab 29.html">Lab #29</a>
+  <a href="../lb 30/lab 30.html">Lab #30</a>
+ </div>
+ <div class="header">
+    <h1>TAEHS</h1>
+		<h2>Web Developer Academy</h2>
+		<h3>10th Grade</h3>
+		<h4>Lab 10 internal CSS</h4>
+		<h5>2/9/22</h5>
+		<h6>Ivan Chow</h6>
+ </div>
+ <center>
+<div id="demoBox">
+<h1>Ivan</h1>
+<h1 id="lname">Chow</h1>
+<h1>2/9/22</h1>
+</div>
+</center>
+<p id=gob>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </body>
+</html>
